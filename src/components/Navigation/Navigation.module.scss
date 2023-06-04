@@ -1,0 +1,26 @@
+@import '@/styles/_variables.scss';
+
+.font {
+	color: $primary;
+	font-size: 1.2rem;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.font:hover {
+	color: $secondary;
+}
+
+.colorNav {
+	background: rgba(30, 30, 30, 0.6);
+}
+
+.logo1 {
+	color: $white;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.logo2 {
+	color: $primary;
+}

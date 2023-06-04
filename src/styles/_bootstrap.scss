@@ -1,0 +1,11 @@
+@import './_variables.scss';
+
+$form-check-input-checked-bg-color: $primary;
+$input-btn-focus-color: $secondary;
+
+$theme-colors: (
+	'primary': $primary,
+	'secondary': $secondary,
+);
+
+@import 'bootstrap/scss/bootstrap';

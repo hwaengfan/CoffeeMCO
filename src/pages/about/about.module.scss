@@ -1,0 +1,59 @@
+@import '@/styles/_variables.scss';
+
+.about {
+	height: 100vh;
+	position: relative;
+	color: $white;
+	background: url('/images/about-background.jpg');
+	background-size: cover;
+}
+
+.overlay::after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.dark::after {
+	background: rgba(30, 30, 30, 0.6);
+}
+
+.mapContainer {
+	z-index: 2;
+	margin-top: 6rem;
+}
+
+.aboutContent {
+	z-index: 2;
+	color: $white;
+}
+
+.aboutText {
+	line-height: 2.5rem;
+	font-size: 1.5rem;
+	text-align: justify;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 20px 0;
+	background: rgba(30, 30, 30, 0.6);
+	color: #fff;
+	text-align: center;
+	z-index: 2;
+}
+
+.footer span a {
+	color: $primary;
+	text-decoration: none;
+}
+
+.footer span a:hover {
+	text-decoration: underline;
+}
