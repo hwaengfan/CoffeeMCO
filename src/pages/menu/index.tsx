@@ -1,6 +1,6 @@
 import Navigation from '@/components/Navigation/Navigation';
 import Head from 'next/head';
-import menu from './Items';
+import menu from '@/utils/Items';
 import styles from './menu.module.scss';
 import { Image } from 'react-bootstrap';
 
